@@ -17,7 +17,7 @@
 #scoreBox{
     position: absolute;
     top: 9px;
-    right: 10px; /* Value ko 300px se kam kiya gaya */
+    right: 1000px; /* Value ko 300px se kam kiya gaya */
     font-size: 39px;
     font-weight: bold;
     font-family: 'New Tegomin', serif;
