@@ -17,21 +17,22 @@
 #scoreBox{
     position: absolute;
     top: 9px;
-    right: 300px;
+    right: 10px; /* Value ko 300px se kam kiya gaya */
     font-size: 39px;
     font-weight: bold;
     font-family: 'New Tegomin', serif;
+    z-index: 10; /* Optional: Score ko sabse upar laane ke liye */
 }
 
 #hiscoreBox{
     position: absolute;
     top: 59px;
-    right: 140px;
+    right: 10px; /* Value ko 140px se kam kiya gaya */
     font-size: 39px;
     font-weight: bold;
     font-family: 'New Tegomin', serif;
+    z-index: 10; /* Optional */
 }
-
 #board{
     background: linear-gradient(rgb(170, 236, 170), rgb(236, 236, 167));
     width: 90vmin;
